@@ -1,0 +1,11 @@
+hadoop fs -put Desktop/log
+
+ hadoop jar Driver.jar Driver.Driver log dri16
+
+
+
+hadoop fs -cat dri16/part-r-00000
+
+
+
+hadoop fs -rm -r dri16
